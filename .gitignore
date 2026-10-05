@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Output artifacts
+*.out
+*.log
+logs/
+
+# Data files (these live under cryoem-group3, not in this repo)
+data/
+metadata/
+analysis/
+
+# IDE
+.vscode/
+.idea/
+
+# Debugging/verification backups and scratch id-lists from session fixes
+# (large embedding-cache snapshots, not part of the pipeline itself)
+pt_backup_*/
+csv_cache_backup_*/
+*affected*ids*.txt
